@@ -6,7 +6,9 @@
 }
 :root{
 	
-	--dark-color:#131313;
+	--dark-color-1:#131313;
+	--dark-color-2:#424242;
+	--dark-color-3:#727272;
 	--white-color:#fff;
 	--orange-color:#FF900E;
 	--light-orange:#FFF4E7;
@@ -17,7 +19,7 @@ p{
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 26px;
-	color:var(--dark-color);
+	color: var(--dark-color-3);
 }
 header, main, footer{
 	display: flex;
@@ -39,7 +41,7 @@ header, main, footer{
 	margin-top: 30px;
 }
 .section-title h2{
-	color:var(--dark-color);
+	color:var(--dark-color-1);
 	font-weight: 700;
 	font-size: 45px;
 	margin-bottom: 24px;
@@ -61,7 +63,7 @@ header, main, footer{
 	margin:50px 0px;
 }
 .header-nav-area .site-logo a{
-	color: var(--dark-color);
+	color: var(--dark-color-1);
 	font-weight: 700;
 	font-size: 45px;
 }
@@ -78,7 +80,7 @@ header, main, footer{
 .header-nav-area ul li a{
 	font-weight: 500;
 	font-size: 18px;
-	color: var(--dark-color);
+	color: var(--dark-color-1);
 }
 
 /* Hero Styles */
@@ -121,6 +123,14 @@ header, main, footer{
 	grid-template-columns: repeat(2, 1fr);
 	grid-gap: 24px;
 }
+.feature-content .thin-word{
+	font-weight: 500;
+	color: var(--dark-color-2);
+}
+.feature-content span{
+	color: var(--orange-color);
+}
+
 /* Love and Enjoy Styles */
 .love-and-enjoy-area {
 	display: grid;
@@ -143,6 +153,13 @@ header, main, footer{
 	box-shadow: 0px 4px 30px rgb(0 0 0 / 6%);
 	border-radius: 8px;
 	padding: 30px;
+}
+.love-and-enjoy-single-items h3 {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 23px;
+	margin-bottom: 10px;
 }
 .love-and-enjoy-feature-image {
 	position: relative;
@@ -219,4 +236,9 @@ footer{
 	padding: 38px;
 	border-radius: 8px;
 	background-color: var(--light-orange);
+	
+}
+.footer-content p{
+	color: var(--dark-color-2);
+	
 }
