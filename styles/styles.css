@@ -251,6 +251,10 @@ header, main, footer{
 .contact-content-item p{
 	margin-bottom: 10px;
 }
+.contact-content-item form {
+	display: flex;
+	flex-direction: column;
+}
 .contact-content-item label {
 	color: var(--dark-color-3);
 	font-weight: 400;
