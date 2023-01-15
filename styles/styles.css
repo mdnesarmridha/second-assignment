@@ -221,6 +221,9 @@ header, main, footer{
 	margin: 0 auto;
 	margin-bottom: 50px;
 }
+.sponspors-single-item img{
+	opacity: 0.8;
+}
 /* Contact CSS*/
 .contact-us-area {
 	display: grid;
