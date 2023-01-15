@@ -215,6 +215,18 @@ header, main, footer{
 	transition: 0.5s;
 	cursor: pointer;
 }
+.facts-single-item h3{
+	font-weight: 600;
+	font-size: 45px;
+	color: var(--dark-color-2);
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+.facts-single-item p {
+	font-weight: 600;
+	font-size: 20px;
+	color: var(--dark-color-3);
+}
 /* Our Sponspors Styles */
 .sponspors-items{
 	display: flex;
@@ -236,7 +248,9 @@ header, main, footer{
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
 }
-
+.contact-content-item p{
+	margin-bottom: 10px;
+}
 .contact-content-item label {
 	color: var(--dark-color-3);
 	font-weight: 400;
@@ -347,7 +361,7 @@ footer{
 	/* SOme Facets */
 	.some-facts-items {
 		margin-top: 80px;;
-		grid-column-gap: 100px;
+		grid-column-gap: 80px;
 	}
 	/* Footer Style */
 	footer {
@@ -465,11 +479,17 @@ footer{
 		margin-top: 40px;
 		padding-bottom: 0px;
 		grid-template-columns: repeat(2, 1fr);
-		grid-column-gap: 25px;
-		grid-row-gap: 25px;
+		grid-column-gap: 20px;
+		grid-row-gap: 20px;
 	}
 	.facts-single-item {
 		padding: 30px 10px 30px 10px;
+	}
+	.facts-single-item h3 {
+		font-size: 28px;
+	}
+	.facts-single-item p {
+		font-size: 16px;
 	}
 
 	/* Sponspors Style */
