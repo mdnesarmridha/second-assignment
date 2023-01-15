@@ -1,0 +1,222 @@
+/* Global Css */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Work Sans', sans-serif;
+}
+:root{
+	
+	--dark-color:#131313;
+	--white-color:#fff;
+	--orange-color:#FF900E;
+	--light-orange:#FFF4E7;
+
+}
+p{
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color:var(--dark-color);
+}
+header, main, footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container{
+ width: 1440px;
+}
+.primary-btn{
+	color:var(--white-color);
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1;
+	border-radius: 8px;
+	padding: 20px 25px;
+	background-color: var(--orange-color);
+	border: 0;
+	margin-top: 30px;
+}
+.section-title h2{
+	color:var(--dark-color);
+	font-weight: 700;
+	font-size: 45px;
+	margin-bottom: 24px;
+}
+.our-features-area, .some-facts-area, .our-sponspors-area, .love-and-enjoy-area{
+	margin-bottom: 130px;
+}
+
+/* Header Styles */
+.header-area{
+	background-color:var(--light-orange);
+	overflow: hidden;
+}
+.header-nav-area{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin:50px 0px;
+}
+.header-nav-area .site-logo a{
+	color: var(--dark-color);
+	font-weight: 700;
+	font-size: 45px;
+}
+.header-nav-area a{
+	text-decoration: none;
+}
+.header-nav-area ul {
+	list-style: none;
+	display: flex;
+}
+.header-nav-area ul li{
+	margin-left: 60px;;
+}
+.header-nav-area ul li a{
+	font-weight: 500;
+	font-size: 18px;
+	color: var(--dark-color);
+}
+
+/* Hero Styles */
+.hero-content-area {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 0px;
+}
+.hero-content{
+	text-align: center;
+	width: 860px;
+	margin-bottom: 50px;
+}
+.hero-content h2{
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+}
+.hero-content-area img{
+	width: 100%;
+}
+
+/* Our Features Styles */
+.our-features-area{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	margin-top: 85px;
+	grid-column-gap: 70px;
+}
+.features-image img{
+	width: 342px;
+	height: 342px;
+	border-radius: 8px;
+}
+.features-image {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 24px;
+}
+/* Love and Enjoy Styles */
+.love-and-enjoy-area {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	grid-column-gap: 145px;
+
+}
+.love-and-enjoy-feature-content .section-title h2 {
+	padding-left: 20px;
+	border-left: 5px solid var(--orange-color);
+}
+.love-and-enjoy-feature-items {
+	margin-top: 30px;
+	display: grid;
+	grid-template-columns: repeat(1,1fr);
+	grid-row-gap: 20px;
+}
+.love-and-enjoy-single-items {
+	background-color: var(--white-color);
+	box-shadow: 0px 4px 30px rgb(0 0 0 / 6%);
+	border-radius: 8px;
+	padding: 30px;
+}
+.love-and-enjoy-feature-image {
+	position: relative;
+}
+.love-enjoy-button{
+	padding: 42px 45px;
+	border-radius: 8px;
+	background-color: var(--orange-color);
+	height: 200px;
+	width: 340px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	row-gap: 5px;
+	position: absolute;
+	bottom: -80px;
+	left: -90px;
+}
+.love-enjoy-button h3{
+	font-style: normal;
+	font-weight: 700;
+	font-size: 65px;
+	line-height: 1;
+	color: var(--white-color);
+}
+.love-enjoy-button p {
+	font-size: 25px;
+	color: var(--white-color);
+	line-height: 1;
+
+}
+/* Some Facts Styles */
+.some-facts-items{
+	margin-top: 100px;
+	padding-bottom: 50px;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-column-gap: 120px;
+}
+.facts-single-item {
+	text-align: center;
+	padding: 45px 35px 60px 35px;
+	border-radius: 8px;
+	border: 1px solid var(--orange-color);
+	transition: 0.5s;
+}
+.facts-single-item:hover {
+	box-shadow: 0px 4px 30px rgb(0 0 0 / 6%);
+	border-color: var(--white-color);
+	transition: 0.5s;
+	cursor: pointer;
+}
+/* Our Sponspors Styles */
+.sponspors-items{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.sponspors-heading{
+	width: 540px;
+	text-align:center;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+/* Footer Styles */
+footer{
+	margin-bottom: 200px;
+}
+.footer-content {
+	text-align: center;
+	padding: 38px;
+	border-radius: 8px;
+	background-color: var(--light-orange);
+}
